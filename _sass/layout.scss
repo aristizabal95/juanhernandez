@@ -32,6 +32,11 @@ header {
 	z-index: 9999;
 	line-height: 0;
 
+	@media #{$mid-point} {
+		display: none;
+	}
+	display: inline;
+
 	.container {
 		line-height: 0;
 	}
@@ -42,6 +47,7 @@ header {
 		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 		transition: background-color 0.2s ease;
 		text-shadow: none;
+		display: inline;
 
 		a {
 			color: #333;
