@@ -1,6 +1,11 @@
 <nav>
 	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	{% for link in site.data.navigation %}
+	<!-- TODO Make the nav items active when scrolled to section -->
+	<!-- TODO Close menu when tapped on nav item -->
+	{% for item in site.nav_list %}
+	<a href="#{{item[0]}}"><i class="{{item[1]}}"></i>{{item[0]}}</a>
+	{% endfor %}
+	<!--{% for link in site.data.navigation %}
 		{% assign class = "" %}
 		{% if link.highlight %}
 			{% assign class = class | append: " highlight" %}
@@ -10,5 +15,5 @@
 			{% assign class = class | append: " active" %}
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
-	{% endfor %}
+	{% endfor %}-->
 </nav>
