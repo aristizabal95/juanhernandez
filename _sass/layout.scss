@@ -225,3 +225,50 @@ blockquote:before {
 .cms-editor-active .editor-link {
 	display: block;
 }
+
+.subtitle {
+	margin-top: 7em;
+	margin-bottom: 7em;
+
+	&.small {
+		margin-bottom: 4em;
+		& h2 {
+			font-size: 1.5em;
+			vertical-align: middle;
+			text-align: center;
+			border-bottom: 2px solid rgba(0,0,0,0.2);
+			line-height: 0.1em;
+		}
+	}
+
+	& h2 {
+		vertical-align: middle;
+		text-align: center;
+		border-bottom: 2px solid rgba(0,0,0,0.4);
+		line-height: 0.1em;
+	}
+	&.small h2 {
+	}
+	& span {
+		background: #fff;
+		padding: 0 20px;
+	}
+}
+
+.thumbnail {
+	max-height: 8em;
+	min-height: 3em;
+	max-width: 15em;
+}
+
+.transparent {
+	opacity: 0.7;
+}
+
+a.subtle {
+	color: #000;
+
+	&:hover {
+		color: #00a4ca;
+	}
+}

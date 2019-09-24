@@ -62,3 +62,15 @@ p, address, ul {
 	line-height: 1.6em;
 	font-family: 'Lato', sans-serif;
 }
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	& i {
+		color: #6dc36d;
+		padding-right: .3em;
+	}
+}

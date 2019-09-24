@@ -5,7 +5,7 @@ image: https://source.unsplash.com/j5LSbCqB1wA/2000x1322?a=.png
 bottom_image: https://unsplash.it/2000/1322?a=.png
 ---
 
-<section class="hero" id="landing" data-vide-bg="{{ site.baseurl }}/videos/video">
+<section class="hero" id="landing" data-vide-bg="{{ site.baseurl }}/videos/video.mp4">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Juan Hernández</h1>
@@ -30,49 +30,203 @@ bottom_image: https://unsplash.it/2000/1322?a=.png
 </section>
 
 <div class="content">
-	<section class="info" id="about">
+	<section class="info" id="learn-more">
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">About</h2>
-				<p class="editable">Making news friends in the adult world is hard. Frisco is the perfect filter matching you the most interesting people in your area.</p>
+				<p class="editable">Alejandro Aristizábal is a musician and sound engineer, with knowledge in Programming and Deep Learning. As a passionate learner, Alejandro has spent most of his free time developing skills that allow him to create bigger and more creative projects, such as programming, electronics and mechanics. Throughout his career, Alejandro has been actively looking for ways in which he can merge his passion for music and technology. With this in mind, he has worked on projects that involve the Music Industry, Music Generation and Interactive Arts.</p>
 			</div>
 			<div class="image">
-				<img class="editable" src="http://placehold.it/800" alt="Screenshot" />
+				<img class="editable" src="/images/profile-pic.jpg" alt="Profile Picture" />
 			</div>
 		</div>
 	</section>
 
-	<section class="info">
-		<div class="container flex">
+	<section id="skills">
+		<div class="container subtitle">
+			<h2 class="editable"><span>Skills</span></h2>
+		</div>
+		<div class="container flex normal center">
 			<div class="text">
-				<h2 class="editable">Pick your interests</h2>
-				<p class="editable">The more you tell Frisco the better it gets to know you. Frisco matches you with people who share similar interests with you.</p>
+				<i class="main-icon fas fa-palette"></i>
+				<h3 class="editable">Creativity</h3>
 			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
-
-	<section class="info">
-		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Swipe and go</h2>
-				<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
+				<i class="main-icon fas fa-tools"></i>
+				<h3 class="editable">Problem Solving</h3>
 			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			<div class="text">
+				<i class="main-icon fas fa-users"></i>
+				<h3 class="editable">Team Work</h3>
+			</div>
+			<div class="text">
+				<i class="main-icon fas fa-fist-raised"></i>
+				<h3 class="editable">Initiative</h3>
+			</div>
+			<div class="text">
+				<i class="main-icon fas fa-handshake"></i>
+				<h3 class="editable">Reliability</h3>
+			</div>
+		</div>
+		<div class="container subtitle small">
+			<h2 class="editable"><span>Technical Skills</span></h2>
+		</div>
+		<div class="container flex normal">
+			<div class="text">
+				<ul>
+					<li><i class="fa fa-circle"></i>Python</li>
+					<li><i class="fa fa-circle"></i>Tensorflow</li>
+					<li><i class="fa fa-circle"></i>Pytorch</li>
+					<li><i class="fa fa-circle"></i>Pysyft</li>
+					<li><i class="fa fa-circle"></i>C</li>
+				</ul>
+			</div>
+			<div class="text">
+				<ul>
+					<li><i class="fa fa-circle"></i>Ruby</li>
+					<li><i class="fa fa-circle"></i>Ruby on Rails</li>
+					<li><i class="fa fa-circle"></i>Devise</li>
+					<li><i class="fa fa-circle"></i>HTML</li>
+					<li><i class="fa fa-circle"></i>CSS</li>
+				</ul>
+			</div>
+			<div class="text">
+				<ul>
+					<li><i class="fa fa-circle"></i>Javascript</li>
+					<li><i class="fa fa-circle"></i>JQuery</li>
+					<li><i class="fa fa-circle"></i>Git</li>
+					<li><i class="fa fa-circle"></i>Slack</li>
+					<li><i class="fa fa-circle"></i>Asana</li>
+				</ul>
+			</div>
+			<div class="text">
+				<ul>
+					<li><i class="fa fa-circle"></i>Arduino</li>
+					<li><i class="fa fa-circle"></i>Processing</li>
+					<li><i class="fa fa-circle"></i>Pro Tools</li>
+					<li><i class="fa fa-circle"></i>Pure Data</li>
+					<li><i class="fa fa-circle"></i>Logic Pro</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 
-	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-				<h2 class="editable">Find your buddy today</h2>
-				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
-				<div class="cta button alt"><a href="#">Join Now</a></div>
+	<section id="projects">
+		<div class="container subtitle">
+			<h2 class="editable"><span>Projects</span></h2>
+		</div>
+		<div class="container flex normal center">
+			<div class="text">
+				<a target="_blank" href="/SinestesIA/" class="subtle">
+					<img src="/images/sinestesia.png" class="thumbnail"></img>
+					<h2 class="editable">Sinestes.IA</h2>
+					<p class="editable"><b>Roles: </b>Full Development</p>
+					<p class="editable"><b>Tools: </b>C, Python, Tensorflow, Pure Data</p>
+					<p class="editable">Sinestes.IA is a creative project that explores the usage of Deep Learning Algorithms as creative and interactive tools. This projects aims to translate, in real time, body movements into music.</p>
+				</a>
+			</div>
+			<div class="text">
+				<a target="_blank" href="https://muvsic.com" class="subtle">
+					<img src="/images/muvsic.jpg" class="thumbnail"></img>
+					<h2 class="editable">Muvsic</h2>
+					<p class="editable"><b>Roles:</b> Former CTO, Backend Developer</p>
+					<p class="editable"><b>Tools: </b>Rails, HTML, CSS, JS, PostgreSQL</p>
+					<p class="editable">Muvsic is a Professional Music Industry Social Network, aimed to bring everyone in the Music Ecosystem connect with each other. This project was presented at Startup Grind 2019 in Silicon Valley.</p>
+				</a>
+			</div>
+			<div class="text">
+				<a target="_blank" href="https://www.youtube.com/watch?v=mghyfGKCtIo" class="subtle">
+					<img src="/images/automusic.png" class="thumbnail"></img>
+					<h2 class="editable">Música autómata</h2>
+					<p class="editable"><b>Roles:</b>Developer</p>
+					<p class="editable"><b>Tools: </b>Python, Tensorflow, Pure Data</p>
+					<p class="editable"><i>Música Autómata</i> is an interactive music project, were the computer generates sound according to the listener's facial expressions. The computer's objective is to maximize an "emotion" on the listener through music.</p>
+				</a>
 			</div>
 		</div>
 	</section>
+
+	<section id="education">
+		<div class="container subtitle">
+			<h2 class="editable"><span>Education</span></h2>
+		</div>
+		<div class="container flex normal center">
+			<div class="text">
+				<img src="/images/javeriana.png" class="thumbnail"></img>
+				<h2 class="editable">Bachelor in Music</h2>
+				<p class="editable">Successfully completed a career in Music studies and Sound Engineering in the Pontifical Xaverian University.</p>
+			</div>
+			<div class="text">
+				<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/LJSBFLXMAZ6A" target="_blank" class="subtle">
+					<img src="/images/deeplearning-ai.png" class="thumbnail"></img>
+					<h2 class="editable">DeepLearning.ai</h2>
+					<p class="editable">Successfully completed the Deep Learning Especialization taught by Stanford Professor Andrew Ng. Studied Neural Network Arquitechtures, State-of-the-art models and best practices for ML projects.</p>
+				</a>
+			</div>
+			<div class="text">
+				<a href="https://courses.edx.org/certificates/13302e43ea694144bd764d87f101d681" target="_blank" class="subtle">
+					<img src="/images/harvardx.png" class="thumbnail"></img>
+					<h2 class="editable">CS50</h2>
+					<p class="editable">Took Harvard's Introduction to Computer Science and the art of Programming. Learned programming paradigms, algorithmic thinking and multiple every-day use languages.</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--
+	<section id="testimonials">
+		<div class="container subtitle">
+			<h2 class="editable"><span>Testimonials</span></h2>
+		</div>
+		<div class="container normal">
+			<div class="text">
+				<p class="editable">
+					<i class="fas fa-quote-left quote"></i>
+					<i>Started a career in Music studies and Sound Engineering in the Pontifical Xaverian University. Expected to graduate in 2019.</i>
+				</p>
+				<p class="test-author">Mateo Jiménez León, Former CEO at Muvsic.</p>
+			</div>
+			<div class="text">
+				<p class="editable">
+					<i class="fas fa-quote-left quote"></i>
+					<i>Started a career in Music studies and Sound Engineering in the Pontifical Xaverian University. Expected to graduate in 2019.</i>
+				</p>
+				<p class="test-author">Mateo Jiménez León, Former CEO at Muvsic.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--
+	<section class="info">
+	<div class="container flex">
+	<div class="text">
+	<h2 class="editable">Swipe and go</h2>
+	<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
 </div>
+<div class="image">
+<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+</div>
+</div>
+</section>
+-->
+
+<section id="animated" class="hero" style="margin-top: 7em;">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h2 class="editable">Let's get in touch!</h2>
+			<p class="subtext editable">If you think I can be of any help, or are interested in my work, contact me.</p>
+			<div class="cta button alt"><a href="/contact">Contact Now</a></div>
+		</div>
+	</div>
+</section>
+</div>
+<script src="/js/dist/three.min.js"></script>
+<script src="/js/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#animated",
+  color: 0x659d,
+  backgroundColor: 0xa1f31,
+  points: 20.00,
+  maxDistance: 21.00,
+	spacing: 18
+})</script>
